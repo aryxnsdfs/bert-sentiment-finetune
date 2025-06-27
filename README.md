@@ -4,10 +4,10 @@ This project fine-tunes a `bert-base-uncased` model using HuggingFace Transforme
 
 ## How to Install:
 
-## 🚀 How It Works
+##  How It Works
 
 1. **Data Preparation**:
-   - Load CSV file containing reviews and ratings.
+   - Load CSV file containing reviews and ratings or you can test using -https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products.
    - Map ratings: 1–2 → Negative (0), 4–5 → Positive (1), drop rating = 3.
    - Drop null values and convert labels to integers.
 
